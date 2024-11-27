@@ -1,0 +1,11 @@
+[klipmi]
+device = "/dev/ttyS1"
+baudrate = 115200
+ui = "openq1"
+
+[moonraker]
+host = "0.0.0.0"
+port = 7125
+api-key = "0d3cf9973d6f4a3eb4dc3b6125e7b2eb"
+
+
