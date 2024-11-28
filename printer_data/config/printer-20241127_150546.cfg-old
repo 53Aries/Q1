@@ -1,11 +1,9 @@
-#[include mmu/base/*.cfg]
-#[include mmu/optional/mmu_menu.cfg]
 [include mainsail.cfg]
 [include Hardware/*]
 [include Macros/*]
 [include sensorless_homing.cfg]
 [include KAMP_Settings.cfg]
-[include AFC/*.cfg]
+#[include AFC/*.cfg]
 
 [virtual_sdcard]
 path: ~/printer_data/gcodes
