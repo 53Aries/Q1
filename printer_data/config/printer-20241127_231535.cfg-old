@@ -1,6 +1,7 @@
 [include mmu/optional/client_macros.cfg]
 [include mmu/addons/dc_espooler.cfg]
-[include mmu/base/*.cfg]
+#[include mmu/base/*.cfg]
+#[include mmu/optional/mmu_menu.cfg]
 [include mainsail.cfg]
 [include Hardware/*]
 [include Macros/*]
@@ -13,8 +14,8 @@ path: ~/printer_data/gcodes
 on_error_gcode: PAUSE
     
 [save_variables] 
-#filename: ~/printer_data/config/saved_variables.cfg
-filename: ~/printer_data/config/mmu/mmu_vars.cfg
+filename: ~/printer_data/config/saved_variables.cfg
+
 [gcode_arcs]
 resolution: .4
 
